@@ -1,9 +1,5 @@
-nb = int(input('Vous cherchez la table de multiplication de quel nombre ? '))
-nb2 = int(input('Vous cherchez la table de multiplication de quel nombre ? ( entrez à nouveau ) : '))
-
-resultat = []
-
-for i in range(0,11):
-    nb2 = nb * i
-    resultat.append(nb)
-    print(nb,'*', i,'=', nb2)
+nbr = float(input("Vous chercher la table de multiplication de quel nombre ? "))
+L = []
+for i in range(11):
+    L.append(nbr*float(i))
+    print(f"{nbr} * {i} = {L[i]}")
